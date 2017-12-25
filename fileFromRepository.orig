@@ -1,7 +1,11 @@
 Olá Mundo!
 
-<<<<<<< HEAD
-Me chamo Raphael e estou treinando a ferramenta GIT.
-=======
 Bem vindo ao treinamento da ferramente GIT.
->>>>>>> 79fc3b001c6e6bec8327b1f9e6e84d8346ccc230
+
+Me chamo Raphael e estou treinando a ferramenta GIT.
+
+<<<<<<< HEAD
+Nova meta.
+=======
+Nova edição.
+>>>>>>> aa464d89b228b03767244ec9924d395b63b70f80
