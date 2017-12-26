@@ -1,6 +1,6 @@
 Olá Mundo! Segunda pasta.
 
-Bem vindo!
+Bem vindo ao GIT!
 
 Olá novamente.
 
