@@ -1,32 +1,38 @@
 var numero = 100;
+if (false) {
+    if (true) {
+        let test = "test";
+    }
 
-if (numero === "100") {
-    console.log("It is equal");
-} else {
-    console.log("It is not equal");
-}
-
-var fruits = [
-    { name: "apple" },
-    { name: "orange" },
-    { name: "melon" },
-    { name: "strawberry" }
-];
-
-for (var fruit in fruits) {
-    if (fruits[fruit].name == "orange") {
-        console.log("I love " + fruits[fruit].name + "!");
+    if (numero === "100") {
+        console.log("It is equal");
     } else {
-        var x;
+        console.log("It is not equal");
+    }
 
-        if (isVowel(fruits[fruit].name.charAt(0))) {
-            x = "an";
-            console.log("This is not an orange. This is " + x + " " + fruits[fruit].name);
+    var fruits = [
+        { name: "apple" },
+        { name: "orange" },
+        { name: "melon" },
+        { name: "strawberry" }
+    ];
+
+    for (var fruit in fruits) {
+        if (fruits[fruit].name == "orange") {
+            console.log("I love " + fruits[fruit].name + "!");
         } else {
-            x = "a";
-            console.log("This is not an orange. This is " + x + " " + fruits[fruit].name);
+            var x;
+
+            if (isVowel(fruits[fruit].name.charAt(0))) {
+                x = "an";
+                console.log("This is not an orange. This is " + x + " " + fruits[fruit].name);
+            } else {
+                x = "a";
+                console.log("This is not an orange. This is " + x + " " + fruits[fruit].name);
+            }
         }
     }
+
 }
 
 function isVowel(vowel) {
